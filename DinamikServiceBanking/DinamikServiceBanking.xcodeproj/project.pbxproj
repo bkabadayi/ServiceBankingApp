@@ -11,11 +11,15 @@
 		5A76C2032EB0A19C00CC2DB3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5A76C2022EB0A19C00CC2DB3 /* Alamofire */; };
 		5A76C2592EB0A31800CC2DB3 /* ZiraatOctopus in Frameworks */ = {isa = PBXBuildFile; productRef = 5A76C2582EB0A31800CC2DB3 /* ZiraatOctopus */; };
 		5A76C25B2EB0A31800CC2DB3 /* ZiraatSealMFA in Frameworks */ = {isa = PBXBuildFile; productRef = 5A76C25A2EB0A31800CC2DB3 /* ZiraatSealMFA */; };
+		5AA453F42EB12F33002D5FF6 /* ServiceBankingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA453F32EB12F33002D5FF6 /* ServiceBankingManager.swift */; };
+		5AA453F62EB130C3002D5FF6 /* DinamikServiceBanking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA453F52EB130C3002D5FF6 /* DinamikServiceBanking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A76C1C62EB0A09100CC2DB3 /* DinamikServiceBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DinamikServiceBanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A76C1E62EB0A0AA00CC2DB3 /* DinamikServiceBanking.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DinamikServiceBanking.docc; sourceTree = "<group>"; };
+		5AA453F32EB12F33002D5FF6 /* ServiceBankingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBankingManager.swift; sourceTree = "<group>"; };
+		5AA453F52EB130C3002D5FF6 /* DinamikServiceBanking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikServiceBanking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				5A76C1E62EB0A0AA00CC2DB3 /* DinamikServiceBanking.docc */,
+				5AA453F52EB130C3002D5FF6 /* DinamikServiceBanking.swift */,
+				5AA453F32EB12F33002D5FF6 /* ServiceBankingManager.swift */,
 				5A76C1C82EB0A09100CC2DB3 /* DinamikServiceBanking */,
 				5A76C1C72EB0A09100CC2DB3 /* Products */,
 			);
@@ -149,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA453F42EB12F33002D5FF6 /* ServiceBankingManager.swift in Sources */,
+				5AA453F62EB130C3002D5FF6 /* DinamikServiceBanking.swift in Sources */,
 				5A76C1E82EB0A0AA00CC2DB3 /* DinamikServiceBanking.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
