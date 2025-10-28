@@ -1,0 +1,24 @@
+{
+  "originHash" : "7fe0e7fd374e16a9a0f87e8c3c5023bffab0c044c69d11d9ee5b1775f6359357",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "sealmfa-ios-spec",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git.codevo.io/ziraat/sealmfa-ios-spec",
+      "state" : {
+        "revision" : "5bfa0c2aacf21f135bc2fb192a5881c43359501f",
+        "version" : "3.9.12"
+      }
+    }
+  ],
+  "version" : 3
+}
